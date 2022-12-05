@@ -23,7 +23,7 @@ itemsCategories.forEach((element) => {
 	const category = element.querySelector('h2');
 	console.log(`Category: ${category.textContent}`);
 	const elements = element.querySelectorAll('li');
-	console.log(`Category: ${elements.length}`);
+	console.log(`Elements: ${elements.length}`);
 });
 
 
